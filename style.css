@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.container {
+  background: #fff;
+  width: 360px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #555;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 18px;
+  background: #ff7f50;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #e96d3f;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#exerciseList {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#exerciseList li {
+  background: #fafafa;
+  padding: 12px;
+  border-left: 4px solid #ff7f50;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#exerciseList li small {
+  display: block;
+  color: #777;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+#summary {
+  background: #fff5ee;
+  padding: 14px;
+  border-radius: 8px;
+  border-left: 4px solid #ff7f50;
+  font-size: 15px;
+}
+
+
+.backBtn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 14px;
+  background: #555;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.backBtn:hover {
+  background: #333;
+}
